@@ -1,0 +1,3 @@
+﻿Data Source=(localdb)\mssqllocaldb;Initial Catalog=Patient;Integrated Security=True
+
+Scaffold-DbContext –Connection "Data Source=(localdb)\mssqllocaldb;Initial Catalog=Patient;Integrated Security=True;" -Provider "Microsoft.EntityFrameworkCore.SqlServer" -OutputDir "Models" –Context "PatientCareContext" –Verbose    -Force
